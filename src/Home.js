@@ -72,7 +72,7 @@ onPress={()=>navigation.navigate("Refactor")}
 <View style={styles.mainbotton}>
 
 <View style={styles.iconleft}><Image style={{width:30,height:30}} source={require("./assets/img/tools.png")}/></View>
-<TouchableOpacity style={styles.tools}>
+<TouchableOpacity style={styles.tools} onPress={()=>navigation.navigate("Device")}>
   <Text>تجهیزات</Text>
 </TouchableOpacity>
 <View style={styles.iconright}>

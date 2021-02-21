@@ -5,6 +5,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import Home from './src/Home';
 import 'react-native-gesture-handler';
 import Refactor from './src/Refactor';
+import Device from './src/Device';
 
 
 
@@ -15,6 +16,7 @@ const App = () => {
  <Stack.Navigator  initialRouteName="Home" headerMode="none">
       <Stack.Screen name="Home" component={Home} />
       <Stack.Screen name="Refactor" component={Refactor}/>
+      <Stack.Screen name="Device" component={Device}/>
     </Stack.Navigator>
   </NavigationContainer>
   )
