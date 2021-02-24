@@ -83,18 +83,19 @@ const styles=StyleSheet.create({
         alignItems:"center",
         width:"100%",
         height:50,
-        flexDirection:"row",
-        backgroundColor:"#fff"
+    flexDirection:"row",
+    justifyContent:"flex-end",
+        backgroundColor:"#fff",
     },
     iconheader:{
-        marginLeft:15,
+        marginRight:20,
         
     },
     info:{
-        flexDirection:"row-reverse",
+        flexDirection:"row",
         justifyContent:"center",
-        marginRight:100,
-        marginTop:15
+        marginTop:10,
+        marginRight:60
 
     },
     image1:{
@@ -119,7 +120,7 @@ const styles=StyleSheet.create({
       width:354,
       height:161,
       alignSelf:"center",
-      marginTop:15,
+      marginTop:5,
       borderRadius:10,
       justifyContent:"space-evenly",
 
@@ -129,7 +130,7 @@ const styles=StyleSheet.create({
         color:"#2b2f70",
         fontSize:18,
         fontWeight:"bold",
-        marginRight:40
+        marginLeft:35
     },
     viewcode:{
         flexDirection:"row",
@@ -144,7 +145,7 @@ const styles=StyleSheet.create({
         fontSize:15,
     },
     status:{
-    marginRight:40,
+    marginLeft:35,
     color:"#2b2f70",
     fontSize:15,
     },
@@ -156,7 +157,7 @@ const styles=StyleSheet.create({
        justifyContent:"center",
        alignItems:"center", 
        borderRadius:8,
-       marginTop:20
+       marginTop:10
     },
 viewlist:{
 width:298,

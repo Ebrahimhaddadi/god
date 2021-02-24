@@ -5561,6 +5561,11 @@
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   "version" "16.13.1"
 
+"react-native-actions-sheet@^0.4.2":
+  "integrity" "sha512-yeOOggOSAcj7/+U+TwFBhPLi820a1mKAPZcFyOSgJrkQOTpSKw9vnMpqO+ciBH0ngptQq/30CpAH+P+Di3EJ7g=="
+  "resolved" "https://registry.npmjs.org/react-native-actions-sheet/-/react-native-actions-sheet-0.4.2.tgz"
+  "version" "0.4.2"
+
 "react-native-gesture-handler@^1.10.1":
   "integrity" "sha512-sDo6T0m+izIDczsIzE63nAqEG3BE/OwkCJoU4/qjdo7ryem7D0Rj/Y+SlAZP2lVAhllo65LDRYqd6SBe4y19Mg=="
   "resolved" "https://registry.npmjs.org/react-native-gesture-handler/-/react-native-gesture-handler-1.10.1.tgz"
